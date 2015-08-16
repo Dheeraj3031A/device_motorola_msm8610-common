@@ -106,3 +106,6 @@ ro.usb.bpteth_adb=0x2e2b
 # Wifi
 persist.sys.qc.sub.rdump.on=1
 ro.disableWifiApFirmwareReload=true
+
+# Play store
+ro.com.google.clientidbase.gmm=android-motorola
