@@ -14,8 +14,6 @@ persist.audio.fluence.speaker=false
 ro.config.vc_call_vol_steps=7
 ro.audio.fm_max_volume=2624
 tunnel.audio.encode = false
-audio.offload.disable=0
-audio.offload.gapless.enabled=true
 
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
