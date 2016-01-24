@@ -103,9 +103,6 @@ persist.radio.relay_oprt_change=1
 ro.use_data_netmgrd=true
 persist.data.qmi.adb_logmask=0
 
-# Scheduler
-sys.io.scheduler=bfq
-
 # Storage
 ro.sys.sdcardfs=true
 
