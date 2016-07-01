@@ -18,6 +18,7 @@ audio.offload.disable=0
 audio.offload.gapless.enabled=true
 
 ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=7
 
 vendor.voice.path.for.pcm.voip=true
 vendor.audio.av.streaming.offload.enable=false
