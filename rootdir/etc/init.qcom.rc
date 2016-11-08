@@ -437,7 +437,7 @@ service irsc_util /system/vendor/bin/irsc_util "vendor/etc/sec_config"
     user root
     oneshot
 
-service mmi-boot-sh /system/vendor/bin/sh /init.mmi.boot.sh
+service mmi-boot-sh /system/vendor/bin/init.mmi.boot.sh
     class core
     user root
     oneshot
@@ -455,7 +455,7 @@ service rild2-wrapper /system/bin/sh /init.qcom.ril.sh
     group root
     oneshot
 
-service mmi-touch-sh /system/vendor/bin/sh /init.mmi.touch.sh synaptics aps
+service mmi-touch-sh /system/vendor/bin/init.mmi.touch.sh synaptics aps
     class late_start
     user root
     oneshot

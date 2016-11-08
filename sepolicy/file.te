@@ -11,3 +11,11 @@ type cutback_data_file, file_type, data_file_type;
 
 # PDS
 type pds_file, file_type;
+type pds_public_file, file_type;
+type pds_batt_file, file_type;
+
+# Sensors
+type sysfs_devices_sensors, file_type, sysfs_type;
+
+# Touch script
+type sysfs_mmi_touch, fs_type, sysfs_type;
