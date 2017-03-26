@@ -54,7 +54,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.bootdevice=msm_sdcc.1 vmalloc=400M androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.bootdevice=msm_sdcc.1 vmalloc=400M loop.max_part=7 androidboot.selinux=permissive
 LZMA_RAMDISK_TARGETS := recovery
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
