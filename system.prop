@@ -17,6 +17,8 @@ tunnel.audio.encode = false
 audio.offload.disable=0
 audio.offload.gapless.enabled=true
 
+ro.config.media_vol_steps=25
+
 vendor.voice.path.for.pcm.voip=true
 vendor.audio.av.streaming.offload.enable=false
 vendor.audio.offload.buffer.size.kb=32
