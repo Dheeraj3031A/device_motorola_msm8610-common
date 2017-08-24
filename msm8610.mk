@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
     wcnss_service \
     libQWiFiSoftApCfg \
     libqsap_sdk \
+    libwpa_client \
     wificond
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
