@@ -12,6 +12,7 @@ dalvik.vm.image-dex2oat-threads=2
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.audio.sdk.fluencetype=none
 persist.vendor.audio.fluence.voicecall=true
+ro.audio.flinger_standbytime_ms=300
 persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=false
 ro.config.vc_call_vol_steps=7
