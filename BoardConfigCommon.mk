@@ -105,6 +105,10 @@ TARGET_NO_RPC := true
 TARGET_ALLOW_LEGACY_AIDS := true
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
