@@ -125,6 +125,12 @@ on post-fs-data
     # Create a folder for SRS to be able to create a usercfg file
     mkdir /data/data/media 0770 media media
 
+    # Create perfd deamon related dirs
+    mkdir /data/misc/perfd 0755 root system
+    chmod 2755 /data/misc/perfd
+    mkdir /data/system/perfd 0770 root system
+    chmod 2770 /data/system/perfd
+
     # Setup folders for diag_mdlog
     mkdir /data/diag_mdlog 0750 system log
     mkdir /data/diag_mdlog/logs 0750 log log
