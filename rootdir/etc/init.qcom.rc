@@ -426,7 +426,7 @@ service charge_only_mode /system/bin/charge_only_mode
     group graphics system input
     disabled
 
-service irsc_util /system/bin/irsc_util "/etc/sec_config"
+service irsc_util /vendor/bin/irsc_util "vendor/etc/sec_config"
     class main
     user root
     oneshot
