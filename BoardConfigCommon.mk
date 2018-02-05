@@ -135,8 +135,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libqc-opt.so|libshim_qcopt.so \
     /system/bin/thermal-engine:libshims_thermal.so \
     /system/bin/mpdecision|libshims_atomic.so \
-    /system/lib/libmot_sensorlistener.so|libshims_sensorlistener.so \
-    /system/vendor/lib/libqc-opt.so|libshims_sensorlistener.so \
+    /system/lib/libmot_sensorlistener.so|libshims_sensorlistener.so  \
+    /system/lib/libmdmcutback.so|libqsap_shim.so \
+    /system/vendor/lib/libqc-opt.so|libshims_sensorlistener.so \ 
     /system/vendor/lib/libmmcamera2_stats_algorithm.so|libshims_atomic.so
 
 # Storage & partiiton
