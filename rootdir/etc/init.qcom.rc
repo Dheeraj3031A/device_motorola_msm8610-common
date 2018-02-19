@@ -438,7 +438,7 @@ on property:ro.use_data_netmgrd=false
 service netmgrd /system/bin/netmgrd
     class main
     user root
-    group root wifi wakelock radio inet
+    group root wifi wakelock radio inet oem_2950
 
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start
@@ -448,7 +448,7 @@ service qcamerasvr /system/bin/mm-qcamera-daemon
 service qmuxd /system/bin/qmuxd
     class main
     user radio
-    group radio audio bluetooth gps oem_2950
+    group radio audio bluetooth gps diag oem_2950
 
 service qseecomd /system/bin/qseecomd
     class late_start
@@ -483,7 +483,7 @@ service time_daemon /system/bin/time_daemon
 service wcnss-service /system/bin/wcnss_service
     class late_start
     user root
-    group system wifi
+    group system wifi oem_2950 diag radio
     oneshot
 
 # WPA
