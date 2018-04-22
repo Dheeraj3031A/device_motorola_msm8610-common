@@ -1,12 +1,15 @@
 # system.prop for msm8610
 
 # ART
-dalvik.vm.dex2oat-flags=--no-watch-dog
 dalvik.vm.dex2oat-swap=false
+dalvik.vm.checkjni=false
+dalvik.vm.dex2oat-flags=--no-watch-dog
 dalvik.vm.extra-opts=-Xcompiler-option --inline-max-code-units=0
 dalvik.vm.boot-dex2oat-threads=2
 dalvik.vm.dex2oat-threads=2
 dalvik.vm.image-dex2oat-threads=2
+dalvik.vm.verify-bytecode=false
+persist.sys.purgeable_assets=1
 
 # Audio
 ro.vendor.audio.sdk.ssr=false
