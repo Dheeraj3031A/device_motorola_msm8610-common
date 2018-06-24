@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/vendor/bin/sh
 
 function advance_system_time()
 {
@@ -41,7 +41,7 @@ if [ ! -z $build_date_utc ]; then
 fi
 
 # We take this from cpuinfo because hex "letters" are lowercase there
-set -A cinfo `cat /proc/cpuinfo | /system/bin/grep Revision`
+set -A cinfo `cat /proc/cpuinfo | sed -n "/Revision/p"`
 hw=${cinfo[2]#?}
 
 # Now "cook" the value so it can be matched against devtree names
