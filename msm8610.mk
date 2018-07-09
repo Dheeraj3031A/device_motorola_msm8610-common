@@ -121,6 +121,10 @@ TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
