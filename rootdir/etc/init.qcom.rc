@@ -471,7 +471,7 @@ service netmgrd /system/vendor/bin/netmgrd
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class late_start
     user camera
-    group camera system inet input graphics
+    group camera system inet input graphics gps
 
 service qmuxd /system/vendor/bin/qmuxd
     class main
