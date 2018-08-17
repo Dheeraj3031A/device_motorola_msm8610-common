@@ -152,8 +152,12 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.msm8610 \
     libshim_qcopt \
+    libshim_skia \
     libshims_sensorlistener \
     Snap
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/libskia.so:system/lib/libskia.so
 
 # IPC router config
 PRODUCT_COPY_FILES += \
