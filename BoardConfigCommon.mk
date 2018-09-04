@@ -110,8 +110,9 @@ TARGET_QCOM_NO_FM_FIRMWARE := true
 # GPS
 TARGET_NO_RPC := true
 
-# Exclude serif fonts for saving system.img size.
+# Fonts
 EXCLUDE_SERIF_FONTS := true
+SMALLER_FONT_FOOTPRINT := true
 
 # Filesystem
 TARGET_ALLOW_LEGACY_AIDS := true
