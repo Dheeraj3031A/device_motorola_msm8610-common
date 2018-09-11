@@ -150,9 +150,6 @@ TARGET_RECOVERY_DENSITY := hdpi
 BOARD_HAS_NO_SELECT_BUTTON := true
 HAVE_SELINUX := true
 
-# Secdiscard
-TARGET_REMOVE_SECDISCARD_COMMAND := true
-
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
