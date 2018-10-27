@@ -254,6 +254,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gps.msm8610
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
+
 # Filesystem
 PRODUCT_PACKAGES += \
     setup_fs
