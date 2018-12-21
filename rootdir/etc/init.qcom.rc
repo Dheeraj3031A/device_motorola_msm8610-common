@@ -462,8 +462,9 @@ service mmi-touch-sh /vendor/bin/init.mmi.touch.sh synaptics aps
 
 service charger /charger
     class charger
-    group log
-    seclabel u:r:charger:s0
+    user root
+    group log root radio system
+    seclabel u:r:healthd:s0
 
 service mpdecision /system/vendor/bin/mpdecision --avg_comp
     user root
