@@ -66,6 +66,11 @@ audio.offload.disable=true
 ro.media.enc.aud.fileformat=amr
 ro.media.enc.aud.codec=amrnb
 
+# Memory optimizations
+ro.vendor.qti.am.reschedule_service=true
+ro.vendor.qti.sys.fw.use_trim_settings=true
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # treble
 camera2.portability.force_api=1
 
