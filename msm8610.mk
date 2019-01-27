@@ -45,8 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mmi.boot.sh \
-    init.mmi.touch.sh \
-    init.qcom.ril.sh
+    init.mmi.touch.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.rc \
