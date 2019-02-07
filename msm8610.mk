@@ -256,6 +256,10 @@ PRODUCT_PACKAGES += \
 # Filesystem
 PRODUCT_PACKAGES += \
     setup_fs
+
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sysfs
     
 # Preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
