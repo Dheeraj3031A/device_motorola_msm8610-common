@@ -71,6 +71,7 @@ mm.enable.smoothstreaming=true
 audio.offload.disable=true
 ro.media.enc.aud.fileformat=amr
 ro.media.enc.aud.codec=amrnb
+debug.stagefright.ccodec=0
 
 # Memory optimizations
 ro.vendor.qti.am.reschedule_service=true
