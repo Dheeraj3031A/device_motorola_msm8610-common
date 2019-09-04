@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # common vendor blobs
 $(call inherit-product, vendor/motorola/msm8610-common/msm8610-common-vendor.mk)
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=16m \
