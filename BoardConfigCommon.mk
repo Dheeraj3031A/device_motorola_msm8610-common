@@ -162,6 +162,9 @@ HAVE_SELINUX := true
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
+BOARD_SEPOLICY_DIRS += \
+	$(VENDOR_PATH)/sepolicy-tmp
+
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/lib/liblog.so|libmoto.so \
