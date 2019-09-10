@@ -146,6 +146,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8610 \
     memtrack.msm8610
 
+# Binder support symbols
+PRODUCT_PACKAGES += \
+    libshim_binder
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
