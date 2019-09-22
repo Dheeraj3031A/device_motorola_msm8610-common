@@ -16,7 +16,7 @@
 
 #define LOG_TAG "lights"
 
-#include <cutils/log.h>
+#include <log/log.h>
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
