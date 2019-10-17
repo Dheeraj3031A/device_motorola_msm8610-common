@@ -175,7 +175,7 @@ TARGET_LD_SHIM_LIBS := \
     /system/bin/mpdecision|libshims_atomic.so \
     /system/lib/libmot_sensorlistener.so|libshims_sensorlistener.so  \
     /system/lib/libmdmcutback.so|libqsap_shim.so \
-    /system/vendor/lib/libqc-opt.so|libshims_sensorlistener.so \ 
+    /system/vendor/lib/libqc-opt.so|libshims_sensorlistener.so \
     /system/vendor/lib/libmmcamera2_stats_algorithm.so|libshims_atomic.so \
     /system/lib/libskia.so|libshim_skia.so \
     /system/vendor/lib/libperipheral_client.so|libshim_binder.so
