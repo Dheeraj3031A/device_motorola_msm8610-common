@@ -100,10 +100,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay
 
-# APEX
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/ld.config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/swcodec/ld.config.txt
-
 # Audio
 PRODUCT_PACKAGES += \
     audio_policy.msm8610 \
