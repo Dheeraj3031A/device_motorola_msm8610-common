@@ -162,6 +162,7 @@ HAVE_SELINUX := true
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 
 BOARD_SEPOLICY_DIRS += \
 	$(VENDOR_PATH)/sepolicy-tmp
