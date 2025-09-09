@@ -128,9 +128,8 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage hardware
-BOARD_HARDWARE_CLASS += \
-    $(COMMON_PATH)/lineagehw
+# Lineage Hardware
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(COMMON_PATH)/lineagehw|**/*.java
 
 # Memory
 MALLOC_SVELTE := true
